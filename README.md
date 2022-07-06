@@ -13,7 +13,7 @@ pip install videoclusters
 ## Usage example
 
 ```python
-from videoclusters.centroid-based.KMeans import KMeans
+from videoclusters.centroid_based.KMeans import KMeans
 
 # initialization of the cluster
 kmeans_cluster = KMeans(num_clusters=2)
