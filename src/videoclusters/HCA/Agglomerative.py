@@ -147,3 +147,4 @@ class Agglomerative:
             self.cluster_vector = torch.where(self.cluster_vector == value, idx, self.cluster_vector)
 
         return self.cluster_vector
+
